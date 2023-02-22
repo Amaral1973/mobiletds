@@ -11,18 +11,12 @@ Arquivos do Curso de Programação Mobile. Arquivos contendo os scripts, e slide
 
 <p><h3>Índice</h3></p>
 
-2. Xamarin<br/>
+1. Xamarin<br/>
   - <a href="https://github.com/Amaral1973/progmobile/tree/main/xamarin/1%20Aula">Aula 1</a><br/>
-  - <a href="https://github.com/Amaral1973/progmobile/tree/main/xamarin/2%20Aula">Aula 2</a><br/>
-  - <a href="https://github.com/Amaral1973/progmobile/tree/main/xamarin/3%20Aula">Aula 3</a><br/>
-  - <a href="https://github.com/Amaral1973/progmobile/tree/main/xamarin/4%20Aula">Aula 4</a><br/>
-  - <a href="https://github.com/Amaral1973/progmobile/tree/main/xamarin/5%20Aula">Aula 5</a><br/>
-  - <a href="https://github.com/Amaral1973/progmobile/tree/main/xamarin/6%20Aula">Aula 6</a><br/>
-  - <a href="https://github.com/Amaral1973/progmobile/tree/main/xamarin/7%20Aula">Aula 7</a><br/>
-  - <a href="https://github.com/Amaral1973/progmobile/tree/main/xamarin/8%20Aula">Aula 8</a><br/>
+  
   
 <br/>
-3. Sites de referência<br/>
+2. Sites de referência<br/>
  - <a href="https://www.youtube.com/watch?v=TFljDFtgTZE" target="_blank">Configurando o Xamarin</a><br/>
  - <a href="https://devblogs.microsoft.com/xamarin/" target="_blank">Xamarin Blog</a><br/>
  - <a href="https://julianocustodio.com.br/category/xamarin/" target="_blank">Xamarin - Juliano Custódio</a><br/>
