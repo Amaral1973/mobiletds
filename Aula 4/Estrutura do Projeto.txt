@@ -1,0 +1,6 @@
+Vamos pegar os dados via Json do site viacep.com.br
+
+Estrutura do Projeto
+- Dentro da solução crie uma Pasta - Servico, e dentro dela crie uma pasta Modelo
+- Dentro da pasta modelo crie uma classe Endereco, e dentro da pasta Servico crie uma classe ViaCEPServico
+- Entre no Gerenciador de Pacotes Nuget e instale o Newtonsoft.Json 

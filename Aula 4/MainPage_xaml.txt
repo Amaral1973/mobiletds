@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCEP.MainPage">
+
+    <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30">
+        <Image Source="correioslogo"/>
+        <Entry Placeholder="Digite o CEP" PlaceholderColor="#FFBF00" BackgroundColor="White" x:Name="CEP" Keyboard="Numeric"/>
+        <Button Text="BUSCAR CEP" TextColor="White" BackgroundColor="#00416B" x:Name="btCEP"/>
+        <Label Text="" VerticalOptions="Center" HorizontalOptions="Center" x:Name="lblResultado"/>
+    </StackLayout>
+
+</ContentPage>
