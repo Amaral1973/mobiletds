@@ -1,0 +1,6 @@
+- Instalar o pacote Xamarin.Essentials via Nuget
+- Dois cliques em Properties do projeto Android, e na janela que se abre clique em Manifesto do Android, é o local que iremos configurar as permissões do aplicativo
+- Aqui é o local que fazemos a configuração do nome do Aplicativo, e definimos o ícone do aplicativo
+- Na guia do manifesto clique em:
+>>>> ACCESS_COARSE_LOCATION
+>>>> ACCESS_FINE_LOCATION
