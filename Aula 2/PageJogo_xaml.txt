@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCaraCoroa.PageJogo" BackgroundColor="#63BF8B" Title="Resultado">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="moeda_cara" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" x:Name="imgMoeda"/>
+            <ImageButton Source="botao_voltar" Margin="20" BackgroundColor="Transparent" x:Name="btVoltar" Clicked="btVoltar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
