@@ -1,0 +1,12 @@
+Xamarin Essentials
+https://docs.microsoft.com/pt-br/xamarin/essentials/
+
+Geolocalização
+https://docs.microsoft.com/pt-br/xamarin/essentials/geolocation?context=xamarin%2Fandroid&tabs=android
+
+Mapas
+https://docs.microsoft.com/pt-br/xamarin/essentials/maps?context=xamarin%2Fandroid&tabs=android
+
+https://docs.microsoft.com/en-us/dotnet/api/xamarin.essentials.placemark?view=xamarin-essentials
+
+https://docs.microsoft.com/pt-br/xamarin/essentials/geocoding?tabs=android
