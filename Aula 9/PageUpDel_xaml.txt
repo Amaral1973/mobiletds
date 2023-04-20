@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMySQL.PageUpDel" Title="Atualizar / Apagar">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nome" FontSize="Medium" FontAttributes="Bold"/>
+            <Entry x:Name="txtNome" Keyboard="Plain" Text="{Binding nome, Mode=TwoWay}"/>
+            <Label Text="Idade" FontSize="Medium" FontAttributes="Bold"/>
+            <Entry x:Name="txtIdade" Keyboard="Plain" Text="{Binding idade, Mode=TwoWay}"/>
+            <Button Text="Atualizar" BackgroundColor="White" FontAttributes="Bold" x:Name="btnAtualizar" Clicked="btnAtualizar_Clicked"/>
+            <Button Text="Apagar" BackgroundColor="Red" FontAttributes="Bold" x:Name="btnApagar" Clicked="btnApagar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

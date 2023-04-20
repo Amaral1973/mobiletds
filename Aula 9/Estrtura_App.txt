@@ -1,0 +1,8 @@
+1 - Fazer o download do MySqlConnector no Nuget
+2 - Criar duas pastas na solução:
+- Controller, dentro desta pasta criar a classe - MySQLCon.cs
+- Models, dentro desta pasta criar a classe - Pessoa.cs
+Criar as seguintes ContentPage:
+- PageCadastrar
+- PageListar
+- PageUpDel
