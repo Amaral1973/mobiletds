@@ -1,0 +1,6 @@
+Recursos
+Permissões
+https://docs.microsoft.com/pt-br/xamarin/android/app-fundamentals/permissions?tabs=windows
+Xamarin Essentials
+https://docs.microsoft.com/pt-br/xamarin/essentials/permissions?tabs=android
+https://docs.microsoft.com/pt-br/xamarin/essentials/media-picker?tabs=android
