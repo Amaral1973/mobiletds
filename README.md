@@ -1,10 +1,10 @@
 <img src="https://user-images.githubusercontent.com/61523977/177602277-0cb2a53d-e415-4462-9244-e241e9f8ac3c.png" width="20%" heigth="20%">
 <h2 align"center">Programação Mobile - Xamarin</h1>
 <p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
+<img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white"/>
+<img src="https://img.shields.io/badge/Xamarin-3199DC?style=for-the-badge&logo=xamarin&logoColor=white"/>
 <img src="https://img.shields.io/github/stars/Amaral1973/progmobile?style=social"/>
 </p>
 Arquivos do Curso Técnico em Desenvolvimento de Sistemas. Arquivos contendo os scripts, e slides das aulas, dividido por categorias e aulas.
