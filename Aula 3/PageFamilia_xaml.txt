@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppInglesCriancas.PageFamilia"
+             Title="Família">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_daughter"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Daughter" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Filha" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_father"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Father" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Pai" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_grandfather"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Grandfather" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Vovô" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_grandmother"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Grandmother" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Vovó" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_mother"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Mother" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Mãe" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_older_brother"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Old Brother" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Irmão mais velho" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_older_sister"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Old Sister" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Irmã mais velha" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_son"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Son" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Filho" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_younger_brother"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Younger Brother" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Irmão mais novo" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_younger_sister"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Younger Sister" VerticalOptions="EndAndExpand"/>
+                        <Label Text="Português: Irmã mais nova" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
