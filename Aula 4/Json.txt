@@ -1,0 +1,8 @@
+https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json
+
+https://servicodados.ibge.gov.br/api/docs/localidades
+
+https://servicodados.ibge.gov.br/api/v1/localidades/estados/{UF}/distritos
+
+https://servicodados.ibge.gov.br/api/v1/localidades/municipios/{municipio}/distritos
+
