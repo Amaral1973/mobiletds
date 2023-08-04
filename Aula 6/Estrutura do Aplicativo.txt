@@ -1,0 +1,5 @@
+- Instalação do Xamarin.Essentials
+- No projeto Android, dois cliques em Properties, e na guia que se abre, vamos em Manifesto do Android, e vamos permitir as seguintes chaves, para o nosso aplicativo:
+>>> READ_EXTERNAL_STORAGE
+>>> WRITE_EXTERNAL_STORAGE
+>>> CAMERA
