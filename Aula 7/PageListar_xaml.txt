@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Esqueci.Views.PageListar" Title="Listar Notas">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Exibir Notas favorita:" FontSize="Medium"/>
+                <Switch x:Name="swFavorito" HorizontalOptions="Start" Toggled="swFavorito_Toggled"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Entry x:Name="txtNota" Keyboard="Plain" Placeholder="Título da nota" HorizontalOptions="StartAndExpand"/>
+                <Button x:Name="btLocalizar" Text="Localizar" Clicked="btLocalizar_Clicked"/>
+            </StackLayout>
+            <ListView x:Name="ListaNotas" HasUnevenRows="True" SeparatorColor="Red" Margin="15" ItemSelected="ListaNotas_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <!--<Label Text="{Binding Id,StringFormat='Código: {0}'}"/>-->
+                                <Label Text="{Binding Titulo,StringFormat='Título: {0}'}"/>
+                                <!--<Label Text="{Binding Dados,StringFormat='Dados: {0}'}"/>-->
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Esqueci.Views.PageSobre" Title="Sobre">
+    <ContentPage.Content>
+        <StackLayout Orientation="Horizontal" Margin="10">
+            <Image Source="esqueci1.png" Margin="10"/>
+            <StackLayout>
+                <Label Text="AppEsqueci"
+                FontSize="Large"
+                FontAttributes="Bold" VerticalOptions="EndAndExpand"/>
+                <Label Text="Desenvolvedor: Emerson Camargo"
+                FontSize="Medium"
+                FontAttributes="Bold"  VerticalOptions="Center" HorizontalOptions="Center"/>
+                <Label Text="Maringá - 2022"
+                FontSize="Medium"
+                FontAttributes="Bold" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

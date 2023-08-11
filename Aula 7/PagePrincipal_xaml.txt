@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Esqueci.Views.PagePrincipal" IsPresented="True">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <StackLayout Margin="10">
+                <Image Source="esqueci2.png" HorizontalOptions="Center"/>
+                <Label Text="Esqueci" FontSize="Large" HorizontalOptions="Center" Margin="0,0,0,50"/>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="info2.png"/>
+                    <Button x:Name="btHome" Text="Home" Clicked="btHome_Clicked" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="inserir.png"/>
+                    <Button x:Name="btCadastrar" Text="Cadastrar" Clicked="btCadastrar_Clicked" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="localizar.png"/>
+                    <Button x:Name="btListar" Text="Localizar" Clicked="btListar_Clicked" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="info.png"/>
+                    <Button x:Name="btSobre" Text="Sobre" Clicked="btSobre_Clicked" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <ContentPage Title="Page Principal">
+            <Label x:Name="testeDB" Text="Alo Mundo!"/>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

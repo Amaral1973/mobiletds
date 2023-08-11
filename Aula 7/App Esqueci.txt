@@ -1,0 +1,19 @@
+App Esqueci
+1 - Criar um projeto Xamarin Forms C#
+2 - Ir no Gerenciador de Pacotes Nuget, e buscar por sqlite-net-pcl e instalar em nosso projeto
+3 - Vamos criar algumas pastas, clicar com o botão no namespace da aplicação, vamos em Adicionar, Nova Pasta:
+- Views, dentro desta pasta vamos adicionar as pages, a parte visual do meu aplicativo;
+- Services, dentro desta pasta vai armazenar as classes que vão ser utilizadas para trabalhar com o Banco de Dados, e outros itens;
+- Models, dentro desta pasta vamos armazenar os modelos do banco de dados que o aplicativo vai usar
+4 - Dentro da pasta Views vamos adicionar uma ContentPage, que vai ser usada como menu dentro do aplicativo, com o nome de PagePrincipal
+5 - Na pasta Views crie as seguintes páginas de conteúdo: PageCadastrar, PageHome, PageListar e PageSobre. Apagamos o arquivo MainPage da árvore de diretórios, e começamos a programar, os arquivos PagePrincipal.xaml, e PagePrincipal.xaml.cs, e o arquivo App.xaml.cs.<<Teste o Aplicativo>>
+6 - Criamos uma classe ModelNotas, na pasta Models, e programamos a nossa classe que irá ser objeto de nosso banco de dados, com todas as especificações, e informamos a tabela que irá gerar
+7 - Botão direito no Projeto Android, e vamos adicionar uma nova classe com o nome FileAccessHelper, esta classe vai nos auxiliar informando aonde irá salvar o arquivo do banco de dados, e programamos; vamos passar o endereçamento do bd dentro do celular
+8 - Vamos identificar o local de armazenamento do banco de dados em nosso aplicativo, abra o arquivo do Android, MainActivity.cs, e programe
+9 - Abrimos o arquivo App.xaml.cs e inserimos na programação duas entidades públicas e um novo construtor, adicionando na criação do aplicativo o nome do banco de dados e o seu caminho.
+10 - Vamos abrir a nossa view PagePrincipal e fazer o teste de acesso ao banco de dados<<Testar aplicativo>>
+11 - Dentro da pasta Views, nós já temos uma PageContent chamada PagePrincipal, vamos criar outra PageContent chamada PageHome, e programamos ela<<Testar aplicativo>>; e vamos criar outra PageContent chamada PageListar, que irá listar todas as nossas anotações; e servirá para excluirmos o nosso registro de notas e fazemos a programação dela, igual a PageHome, somente title e no label, também criamos uma nova PageContent chamada PageCadastrar que servirá para cadastrar e editar também, e realizamos a mesma programação das outras pages, criamos uma última view chamada PageSobre que irá demonstrar o nome do desenvolvedor, realizamos a mesma modificação das outras. Vamos adicionar ao nosso menu, vamos a nossa PagePrincipal e vamos programar o nosso menu. Vamos programar todos os botões para chamar nossas páginas, vamos colocar dentro de um Stacklayout. Vamos dar um nome para os botões e vamor criar um evento para que possa chamar as páginas. Vamos alterar a propriedade IsPresented, porque após chamar o menu não quero mais que ele apareça. Colocamos no construtor principal a chamada do método btHome para deixar nossa aplicação mais esperta.
+12 - Criando a classe ServiceDBNotas, servirá como cadastro, edição, exclusão e listagem dos nossos dados dentro do banco de dados. Dentro da pasta Services vamos criar uma classe chamada ServicesDBNotas, e vamos programa-lá.
+13 - Vamos realizar a construção da PageCadastrar.
+14 - Vamos realizar a construção da PageListar.
+15 - Vamos realizar a construção da PageSobre.<<Testar o aplicativo>>
