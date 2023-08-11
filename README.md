@@ -18,6 +18,7 @@ Arquivos do Curso Técnico em Desenvolvimento de Sistemas. Arquivos contendo os 
   - <a href="https://github.com/Amaral1973/mobiletds/tree/main/Aula%204">Aula 4</a><br/>
   - <a href="https://github.com/Amaral1973/mobiletds/tree/main/Aula%205">Aula 5</a><br/>
   - <a href="https://github.com/Amaral1973/mobiletds/tree/main/Aula%206">Aula 6</a><br/>
+  - <a href="https://github.com/Amaral1973/mobiletds/tree/main/Aula%207">Aula 7</a><br/>
   
   
 <br/>
