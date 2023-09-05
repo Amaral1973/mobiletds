@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMySQL.MainPage">
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Banco MySQL" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Image Source="mysql" Margin="20"/>
+        <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+            <Button Text="Cadastrar Pessoa" BackgroundColor="White" FontAttributes="Bold" x:Name="btnCadastrar" Clicked="btnCadastrar_Clicked"/>
+            <Button Text="Ver Pessoas" BackgroundColor="White" FontAttributes="Bold" x:Name="btnVer" Clicked="btnVer_Clicked"/>
+            <Button Text="Sair" BackgroundColor="White" FontAttributes="Bold" x:Name="btnSair" Clicked="btnSair_Clicked"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
